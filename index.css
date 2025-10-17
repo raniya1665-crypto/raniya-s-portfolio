@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.outerdiv{
+
+    
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 16px;
+    display: flex;
+    border: 0px solid black;
+    
+}
+
+.w3school-logo{
+    display: flex; 
+}
+.one{
+    display: flex;
+    border: 0px solid black;
+    height: 50px;
+    width: 130px;
+    font-style: black;
+    align-content: center;
+    
+}
+.two{ 
+    display: flex;
+    border: 0px solid black;
+    height: 50px;
+    width: 130px;
+    font-style: black;
+    align-content: center;
+}
+.three{
+     display: flex;
+    border: 0px solid black;
+    height: 50px;
+    width: 130px;
+    font-style: black;
+    align-content: center;
+}
+.four{
+     display: flex;
+    border: 0px solid black;
+    height: 50px;
+    width: 130px;
+    font-style: black;
+    align-content: center;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.left-side{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-side :hover{
+    background-color: rgba(30, 116, 40, 0.795);
+    color: white;
+}
+
+.left-side a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+.searchbar input{
+    border: 1px solid black;
+    padding: 6px 10px;
+    width: 150px;
+    border-radius: 30px;
+    height: 20px;
+   
+}
+.right-div{
+    display: flex;
+  padding-left: 40px;
+  border: 0px solid black;
+}
+
+.right-div a{
+     display: flex;
+       height: 35px;
+       width: 100px;
+     justify-content: flex-end;
+     background-color: rgb(255, 255, 255);
+    align-items: center;
+    color: black;
+    border-radius:25px ;
+    justify-items: center;
+    margin-top: 5px;
+}
+
+.right-div a:hover{
+    background-color: rgb(211, 211, 211);
+}
+.right-div a{
+    display: flex;
+    border: 0px solid black;
+    height: 45px;
+    width: 130px;
+    font-style: black;
+    align-items: center;
+    justify-content: center;
+}
+.bottomdiv{
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.818);
+    border: 0px solid rgb(255, 255, 255);
+    height: 30px;
+
+    align-items: center;
+    
+}
+
+
+.bottomdiv a{
+     color: rgb(255, 255, 255);
+     border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.bottomdiv a:hover{
+    background-color: black;
+}
+
+
+.sign-in{
+    height: 40px;
+    width:100px ;
+    background-color: rgba(0, 128, 79, 0.948);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
