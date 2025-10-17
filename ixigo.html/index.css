@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.maindiv{
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+    margin-bottom: 10px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.rightdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 700px;
+    gap: 70px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.logo{
+    display: flex;
+}
+
+.rightdiv a{
+    display: flex;
+    justify-content: space-between;
+     color:rgba(0, 0, 0, 0.763)
+}
+
+a{
+    text-decoration: none;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.rightdiv .login{
+    padding-right: 80px;
+
+}
+.three .flight{
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+.three{
+    justify-content: center;
+}
+.bottomdiv{
+    display: flex;
+    align-items: center;
+}
+.three{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold
+}
+.four .hotels{
+    height: 70px;
+    width: 70px;
+    display: flex;
+
+
+}
+.four{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold
+
+}
+
+.five{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold
+}
+.five .trains{
+    height: 60px;
+    width: 50px;
+}
+.six{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold
+}
+.six .buses{
+    height: 60px;
+    width: 50px;
+
+}
+.seven{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+    
+}
+.eight{
+    height: 270px;
+    width: 1430px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 15px 12px rgba(0, 0, 0, 0.1);
+}
+.thirddiv{
+    height: 270px;
+    width: 1470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 15px 12px rgb(0, 0, 0, 0.1);
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 12px;
+    height: 60px;
+}
+.departure{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: white;
+    /* padding: 0px; */
+    height: 60px;
+    padding-bottom: 80px;
+    gap: 2px;
+    padding-left: 300px;
+}
+    
+.departure > div{
+    /* color: black; */
+    padding: 10px;
+    text-align: left;
+    border: 0px solid black;
+    /* color: rgb(255, 255, 255); */
+}
+.from-div{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.searchdiv{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+    width: 130px;
+}
+.to-div{
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    width: 290px;
+}
+.depdiv{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.datediv{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.return-div{
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+.tandc{
+    font-size: 12px;
+}
+.date{
+    background-color: #f1f1f1;
+    width: 150px;
+}
+.class{
+    background-color: #f1f1f1;
+    width: 250px;
+}
+.economy{
+    font-size: 20px;
+    color: black;
+    font-weight:bold;
+}
+.searchdiv:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+.from-div:hover{
+    background-color: #d4d4d4;
+}
+.to-div:hover{
+    background-color: #d4d4d4;
+}
+.date:hover{
+    background-color: #d4d4d4;
+}
+.return-div:hover{
+    background-color: #d4d4d4;
+}
+.class:hover{
+    background-color: #d4d4d4;
+}
+.onetrip{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    
+    bottom: 100px;
+    right: 1450px;
+    gap: 20px;
+}
+.oneway{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgba(0, 55, 255, 0.531);
+    border-radius: 25px;
+    margin-left: 80px;
+    color: rgba(0, 0, 255, 0.582);
+    
+}
+.onetrip :hover{
+    background-color: rgba(173, 216, 230, 0.281);
+
+}
+
+.roundtrip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 25px;
+}
+.fare{
+    display: flex;
+    position: relative;
+    left: 50px;
+    bottom: 115px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    background-color: white;
+}
+.btone{
+    border-color:1px solid rgba(0, 0, 0, 0.588);
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+}
+.buttons :hover{
+    background-color: #d4d4d47a;
+
+}
+
+
+.bttwo{
+    border-radius: 20px;
+    width: 110px;
+    background-color: white;
+
+}
+.btthree{
+    border-radius: 20px;
+    width: 110px;
+    background-color: white;
+
+}
+.opt{
+    height: 50px;
+    width: 1350px;
+    border: 0px solid black;
+    display: flex;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    border-radius: 10px;
+    background-color: rgba(0, 174, 255, 0.088);
+}
+.checkbox{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    
+
+}
+.frfr{
+    position: relative;
+    left: 30px;
+}
+.horizontallist{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 305px;
+    bottom: 20px;
+}
+.withixigo{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+}
+.plane{
+    height: 60px;
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    gap: 70px;
+    height: 150px;
+    
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 15px 12px rgba(0, 0, 0, 0.1);
+    
+
+}
+.fplane{
+    border-right: 1px solid black;
+    height: 80px;
+    width: 250px;
+    position: relative;
+    left: -50px;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    text-align: center;
+   padding: 15px 10px;
+   border-right: 1px solid
+}
+.fplane:last-child{
+    border-right: none;
+}
+.fcreditcard{
+    border-right: 1px solid black;
+    height: 100px;
+    /* position: relative;
+    top: 50px; */
+    /* right: 50px;
+    width: 190px; */
+    
+
+}
+.fbookvisa{
+    border-right: 1px solid black;
+    height: 100px;
+    /* position: relative;
+    justify-content: space-around;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+    padding: 10px 0; */
+    
+
+
+}
+.finsurance{
+    border-right: 1px solid black;
+    height: 100px;
+    /* position: relative;
+    top: 50px;
+    right: 50px;
+    width: 150px; */
+
+}
+.fmarketing{
+    border-right: 1px solid black;
+    height: 100px;
+    /* position: relative;
+    top: 50px;
+    right: 50px;
+    width: 150px; */
+
+}
+.fcabs{
+    border-right: 1px solid black;
+    height: 100px;
+    /* position: relative;
+    top: 50px;
+    right: 50px;
+    width: 150px; */
+
+}
+.fplan{
+    border-right: 1px solid black;
+    height: 100px;
+    text-align: center;
+    /* /* position: relative; */
+    top: 50px;
+    right: 50px;
+    width: 150px; */
+
+}
+.foffers {
+  display: flex;    
+  gap: 20px;               
+  justify-content: center;  
+  margin-top: 20px;
+}
+.foffers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+.foffers img{
+    width: 300px;
+    height: 180px;
+    border-radius: 16px;
+}
+.offerforyou{
+    font-size: large;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.offerforyou :hover{
+    box-shadow: 10px 8px 15px 12px rgba(0, 0, 0, 0.2);
+}
+
